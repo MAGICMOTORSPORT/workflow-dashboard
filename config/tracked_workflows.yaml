@@ -1,85 +1,9 @@
 page_title: LF Builds
 
 repos:  
-  - repo: asv-formatter
-    owner: lincc-frameworks
-    smoke-test: smoke-test.yml
-    live-build: testing-and-coverage.yml
-
-  - repo: citation-compass
-    owner: lincc-frameworks
-    smoke-test: smoke-test.yml
-    benchmarks: asv-nightly.yml
-    live-build: testing-and-coverage.yml
-
-  - repo: hats
-    owner: astronomy-commons
-    smoke-test: smoke-test.yml
-    build-docs: build-documentation.yml
-    benchmarks: asv-nightly.yml
-    live-build: testing-and-coverage.yml
-
-  - repo: hats-cloudtests
-    owner: astronomy-commons
-    smoke-test: smoke-test.yml
-    benchmarks: asv-nightly.yml
-    live-build: testing-and-coverage.yml
-
-  - repo: hats-import
-    owner: astronomy-commons
-    smoke-test: smoke-test.yml
-    build-docs: build-documentation.yml
-    live-build: testing-and-coverage.yml
-
-  - repo: hyrax
-    owner: lincc-frameworks
-    smoke-test: smoke-test.yml
-    build-docs: build-documentation.yml
-    benchmarks: asv-nightly.yml
-    live-build: testing-and-coverage.yml
-
-  - repo: kbmod
-    owner: dirac-institute
-    smoke-test: canary_builds.yaml
-    build-docs: build_docs.yaml
-    live-build: pr_tests.yaml
-  
-  - repo: koffi
-    owner: lincc-frameworks
-    smoke-test: smoke-test.yml
-    live-build: testing-and-coverage.yml
-  
-  - repo: lsdb
-    owner: astronomy-commons
-    smoke-test: smoke-test.yml
-    build-docs: build-documentation.yml
-    benchmarks: asv-nightly.yml
-    live-build: testing-and-coverage.yml
-      
-  - repo: nested-dask
-    owner: lincc-frameworks
-    smoke-test: smoke-test.yml
-    build-docs: build-documentation.yml
-    benchmarks: asv-nightly.yml
-    live-build: testing-and-coverage.yml
-      
-  - repo: nested-pandas
-    owner: lincc-frameworks
-    smoke-test: smoke-test.yml
-    build-docs: build-documentation.yml
-    benchmarks: asv-nightly.yml
-    live-build: testing-and-coverage.yml
-      
-  - repo: python-project-template
-    owner: lincc-frameworks
-    live-build: ci.yml
-    smoke-test: smoke-test.yml
-  
-  - repo: tdastro
-    owner: lincc-frameworks
-    smoke-test: smoke-test.yml
-    benchmarks: asv-nightly.yml
-    live-build: testing-and-coverage.yml
+  - repo: ixi_center
+    owner: MAGICMOTORSPORT
+    live-build: ci-cd-dev.yml
   
 extra_links: 
   - text: LSDB Dash
